@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ApparelArmorReconBase">
+    <defName>Apparel_ECRArmor</defName>
+    <label>ECR Armor</label>
+	<description>Recon armor re-designed for deployment in more extreme climates.</description>
+	<statBases>
+	  <Insulation_Cold>50</Insulation_Cold>
+      <Insulation_Heat>18</Insulation_Heat>
+	</statBases>
+	<apparel>
+      <tags>
+        <li>SpacerMilitary</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <ThingDef ParentName="ApparelArmorHelmetReconBase">
+    <defName>Apparel_ECRHelmet</defName>
+    <label>ECR Helmet</label>
+    <description>A high-tech armored helmet with a built-in status computer and a protective plasteel-weave plate. This version has additional circuits for thermal control in hot and cold climates.</description>
+    <statBases>
+	  <Insulation_Cold>12</Insulation_Cold>
+      <Insulation_Heat>6</Insulation_Heat>
+	</statBases>
+	<apparel>
+      <tags>
+        <li>SpacerMilitary</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+</Defs>
