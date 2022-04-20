@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <!--ECR Armor Base-->
+
   <ThingDef ParentName="ApparelArmorReconBase">
     <defName>Apparel_ECRArmor</defName>
     <label>ECR Armor</label>
@@ -28,6 +30,69 @@
       <tags>
         <li>SpacerMilitary</li>
       </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!--ECR Armor Prestige-->
+  
+    <ThingDef ParentName="ApparelArmorReconBase">
+    <defName>Apparel_ECRArmorPrestige</defName>
+    <label>Prestige ECR Armor</label>
+    <description>Prestige ECR armor for the rare royal scout. Laced with Eltex threads, gold, and a thermal protection barrier.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/PrestigeReconArmor/PrestigeReconArmor</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <WorkToMake>90000</WorkToMake>
+	  <Insulation_Cold>55</Insulation_Cold>
+      <Insulation_Heat>20</Insulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <PsychicSensitivity>0.05</PsychicSensitivity>
+      <PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
+    </equippedStatOffsets>
+    <costList>
+      <Gold>9</Gold>
+      <Plasteel>100</Plasteel>
+    </costList>
+    <apparel>
+      <tags>
+        <li>PrestigeCombatGear</li>
+      </tags>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PrestigeReconArmor/PrestigeReconArmor</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+    <ThingDef ParentName="ApparelArmorHelmetReconBase">
+    <defName>Apparel_ECRHelmetPrestige</defName>
+    <label>Prestige ECR Helmet</label>
+    <description>A high-tech armored helmet with a built-in status computer, protective plasteel-weave plating, and thermal regulation circuits to keep the wearer comfortable.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer's psychic sensitivity.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/PrestigeReconHelmet/PrestigeReconHelmet</texPath>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(0.9, 0.9)</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>31500</WorkToMake>
+	  <Insulation_Cold>15</Insulation_Cold>
+      <Insulation_Heat>8</Insulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <PsychicSensitivity>0.05</PsychicSensitivity>
+      <PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
+    </equippedStatOffsets>
+    <costList>
+      <Gold>4</Gold>
+      <Plasteel>40</Plasteel>
+    </costList>
+    <apparel>
+      <tags>
+        <li>PrestigeCombatGear</li>
+      </tags>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PrestigeReconHelmet/PrestigeReconHelmet</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
   </ThingDef>
   

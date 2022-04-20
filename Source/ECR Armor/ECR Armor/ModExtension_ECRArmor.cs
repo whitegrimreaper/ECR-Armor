@@ -11,7 +11,6 @@ namespace ECR_Armor
 {
     public class ModExtension_ECRArmor : DefModExtension
     {
-        public float addHediffChance = 0.05f;
-        public HediffDef hediffToAdd;
+        // This class should be empty for now, may add some C# functionality later if I am feeling spicy
     }
 }
