@@ -10,6 +10,6 @@ ECR Helmet - Same as above for the Recon Helmet
 
 ## TODO
 
-Add Prestige versions
-Add Locust/Grenadier/Other Variants
-Create unique graphics for these armors
+- Add Prestige versions
+- Add Locust/Grenadier/Other Variants
+- Create unique graphics for these armors
